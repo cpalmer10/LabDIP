@@ -18,14 +18,14 @@ import javax.swing.JOptionPane;
  * 
  * @author your name goes here
  */
-public class Startup {
-    public static enum ServiceQuality {
-           GOOD, FAIR, POOR
-    };
- 
+public class Startup {     
     public static void main(String[] args) {
+        TipCalculator tc = new BaggageService(ServiceQuality.GOOD, 5);
         
-        
+        TipCalculatorManager mgr = new TipCalculatorManager(tc);
+
+        double tip = mgr.getTip();
+        System.out.println(tip);
     }
 
 }

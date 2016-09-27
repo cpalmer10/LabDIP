@@ -5,7 +5,7 @@ import java.util.Scanner;
  *
  * @author Chris
  */
-public class ConsoleReader implements Reader {
+public class ConsoleReader implements MessageReader {
     Scanner kb = new Scanner(System.in);
     
     public ConsoleReader(){

@@ -5,7 +5,7 @@ package dip.lab3.student.solution1;
  *
  * @author Chris
  */
-public interface Reader {
+public interface MessageReader {
     public abstract void read();
     
     

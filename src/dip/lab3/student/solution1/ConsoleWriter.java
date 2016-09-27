@@ -5,7 +5,7 @@ package dip.lab3.student.solution1;
  *
  * @author Chris
  */
-public class ConsoleWriter implements Writer {
+public class ConsoleWriter implements MessageWriter {
     
     private String output;
     private String[] tips ={

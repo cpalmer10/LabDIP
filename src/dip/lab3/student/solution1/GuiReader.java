@@ -5,7 +5,7 @@ package dip.lab3.student.solution1;
  *
  * @author Chris
  */
-public class GuiReader implements Reader {
+public class GuiReader implements MessageReader {
     @Override
     public void read(){
         

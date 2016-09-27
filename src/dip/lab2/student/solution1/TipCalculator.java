@@ -10,10 +10,7 @@ package dip.lab2.student.solution1;
  * @author Chris
  */
 public interface TipCalculator {
-    public abstract void getBillAmount();
-    public abstract void setBillAmount(double bill);
-    //public abstract void getServiceQuaility();
-    //public abstract void setServiceQuality(ServiceQuality sq);
-    public abstract double getTipPercent();
-    public abstract double setTipPercent();
+
+    public abstract double getTip();
+    
 }
