@@ -12,7 +12,8 @@ public class Startup {
         
         //mgr.doRead();
         //mgr.doWrite();
-        mgr.tipOfDay();
+        mgr.doMessage();
         
+        //String message = 
     }
 }
