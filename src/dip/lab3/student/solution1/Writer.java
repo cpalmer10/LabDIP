@@ -5,6 +5,7 @@ package dip.lab3.student.solution1;
  *
  * @author Chris
  */
-public class Writer {
+public interface Writer {
+    public abstract void write();
     
 }
